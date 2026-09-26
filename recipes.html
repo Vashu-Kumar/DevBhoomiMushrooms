@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Bhoomi Mushroom</title>
+  <meta name="description" content="Delicious ways to enjoy oyster mushrooms — six easy recipes with step-by-step instructions and video guides from Dev Bhoomi Mushroom.">
+  <meta property="og:title" content="Recipes | Dev Bhoomi Mushroom">
+  <meta property="og:description" content="Six easy oyster mushroom recipes, plus videos you can watch right on the page.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍄</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true">🍄</span>
+        <span>Dev Bhoomi Mushroom</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="recipes.html" class="active">Recipes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="about.html" class="btn btn-primary btn-sm">Explore Mushrooms</a>
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Page Header ===== -->
+    <section class="page-header">
+      <div class="container">
+        <h1>Delicious Ways to Enjoy Oyster Mushrooms</h1>
+        <p>Six simple recipes, from a quick sauté to a comforting bowl of soup. Tap "View Recipe" for full ingredients and steps.</p>
+      </div>
+    </section>
+
+    <!-- ===== Recipe Cards ===== -->
+    <section>
+      <div class="container">
+        <div class="recipe-grid">
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?auto=format&fit=crop&w=700&q=80" alt="Garlic butter oyster mushrooms in a pan" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Garlic Butter Oyster Mushrooms</h3>
+              <p class="recipe-desc">Pan-seared mushrooms finished with garlic, butter and a squeeze of lemon.</p>
+              <div class="recipe-meta">
+                <span>⏱ 20 min</span>
+                <span>📊 Easy</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="garlic-butter">View Recipe</button>
+            </div>
+          </article>
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1618164436241-4473940d1f5c?auto=format&fit=crop&w=700&q=80" alt="Crispy fried oyster mushroom pieces" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Crispy Oyster Mushroom Fry</h3>
+              <p class="recipe-desc">Spiced and coated mushrooms, shallow-fried until golden and crunchy.</p>
+              <div class="recipe-meta">
+                <span>⏱ 30 min</span>
+                <span>📊 Easy</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="crispy-fry">View Recipe</button>
+            </div>
+          </article>
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=80" alt="Oyster mushroom curry in a bowl" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Oyster Mushroom Curry</h3>
+              <p class="recipe-desc">A creamy coconut-based curry with warm spices, best served with rice.</p>
+              <div class="recipe-meta">
+                <span>⏱ 40 min</span>
+                <span>📊 Medium</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="curry">View Recipe</button>
+            </div>
+          </article>
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=700&q=80" alt="Mushroom and vegetable stir fry in a wok" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Mushroom Stir Fry</h3>
+              <p class="recipe-desc">A fast weeknight stir fry with crisp vegetables and a savory sauce.</p>
+              <div class="recipe-meta">
+                <span>⏱ 18 min</span>
+                <span>📊 Easy</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="stir-fry">View Recipe</button>
+            </div>
+          </article>
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?auto=format&fit=crop&w=700&q=80" alt="Creamy mushroom pasta twirled on a fork" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Creamy Mushroom Pasta</h3>
+              <p class="recipe-desc">Pasta tossed in a rich mushroom and parmesan cream sauce.</p>
+              <div class="recipe-meta">
+                <span>⏱ 30 min</span>
+                <span>📊 Medium</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="creamy-pasta">View Recipe</button>
+            </div>
+          </article>
+
+          <article class="recipe-card reveal">
+            <div class="recipe-media">
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="A bowl of creamy mushroom soup" loading="lazy">
+            </div>
+            <div class="recipe-body">
+              <h3>Mushroom Soup</h3>
+              <p class="recipe-desc">A comforting, velvety soup finished with cream and fresh chives.</p>
+              <div class="recipe-meta">
+                <span>⏱ 35 min</span>
+                <span>📊 Easy</span>
+              </div>
+              <button class="btn btn-primary btn-block" data-recipe="soup">View Recipe</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Watch & Cook (YouTube Embeds) ===== -->
+    <section class="videos section-dark">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Watch &amp; Cook</h2>
+          <p class="section-lede">Prefer to follow along on video? Watch these oyster mushroom recipes without leaving the page.</p>
+        </div>
+
+        <!--
+          NOTE: The VIDEO_ID values below are placeholders.
+          Replace each one with a real YouTube video ID (the part after "v=" in a
+          youtube.com/watch?v=VIDEO_ID URL). Do not change the embed/ path structure.
+        -->
+        <div class="video-grid">
+          <div class="video-item reveal">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_1"
+                title="Garlic Butter Oyster Mushrooms — Recipe Video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="video-caption">
+              <h3>Garlic Butter Oyster Mushrooms</h3>
+              <p>A quick pan-seared method, step by step.</p>
+            </div>
+          </div>
+
+          <div class="video-item reveal">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_2"
+                title="Oyster Mushroom Curry — Recipe Video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="video-caption">
+              <h3>Oyster Mushroom Curry</h3>
+              <p>A comforting coconut curry, made from scratch.</p>
+            </div>
+          </div>
+
+          <div class="video-item reveal">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_3"
+                title="Crispy Oyster Mushroom Fry — Recipe Video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="video-caption">
+              <h3>Crispy Oyster Mushroom Fry</h3>
+              <p>Getting that perfect golden crunch.</p>
+            </div>
+          </div>
+
+          <div class="video-item reveal">
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/VIDEO_ID_4"
+                title="Creamy Mushroom Pasta — Recipe Video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="video-caption">
+              <h3>Creamy Mushroom Pasta</h3>
+              <p>A rich weeknight pasta in under 30 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark" aria-hidden="true">🍄</span>
+            <span>Dev Bhoomi Mushroom</span>
+          </a>
+          <p>Naturally Grown. Naturally Good.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:hello@Dev Bhoomi Mushroom.com">hello@Dev Bhoomi Mushroom.com</a></li>
+            <li><a href="contact.html">Get in touch</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Dev Bhoomi Mushroom. All Rights Reserved. Fresh ideas. Natural ingredients.</p>
+        <div class="footer-social">
+          <!-- Replace href values with actual social media URLs -->
+          <a href="https://instagram.com/" aria-label="Instagram" target="_blank" rel="noopener">📷</a>
+          <a href="https://facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">📘</a>
+          <a href="https://youtube.com/" aria-label="YouTube" target="_blank" rel="noopener">▶️</a>
+          <a href="https://linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">💼</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- ===== Recipe Modal ===== -->
+  <div class="modal-overlay" id="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-el">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close recipe">✕</button>
+      <div class="modal-media">
+        <img src="" alt="" id="modal-media-img">
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title" id="modal-title-el"></h3>
+        <div class="modal-meta">
+          <span data-meta="prep"></span>
+          <span data-meta="cook"></span>
+          <span data-meta="servings"></span>
+        </div>
+
+        <h4>Ingredients</h4>
+        <ul class="modal-ingredients"></ul>
+
+        <h4>Instructions</h4>
+        <ol class="modal-steps"></ol>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
