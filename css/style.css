@@ -1286,3 +1286,45 @@ textarea:focus-visible {
     padding: 24px 20px 28px;
   }
 }
+
+
+/* favicons css */
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+.footer-social a svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--light-grey) !important;
+  transition: fill var(--transition), transform var(--transition);
+}
+
+.footer-social a:hover {
+  background-color: var(--mushroom);
+  transform: translateY(-3px);
+}
+
+.footer-social a:hover svg {
+  fill: var(--white) !important;
+}
+
+
+
+.social-row a svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--brown-dark) !important;
+  transition: fill var(--transition);
+}
+
+.social-row a:hover svg {
+  fill: var(--white) !important;
+}
