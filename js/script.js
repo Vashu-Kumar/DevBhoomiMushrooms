@@ -1,7 +1,4 @@
-/* ==========================================================================
-   MUSHROOMIA — script.js
-   Vanilla JavaScript only. Organized by feature.
-   ========================================================================== */
+
 
 document.addEventListener('DOMContentLoaded', function () {
   initMobileNav();
@@ -113,7 +110,7 @@ function initBackToTop() {
 var RECIPES = {
   'garlic-butter': {
     name: 'Garlic Butter Oyster Mushrooms',
-    image: 'https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-garlic-butter.jpg',
     prepTime: '10 minutes',
     cookTime: '10 minutes',
     servings: '2 servings',
@@ -136,7 +133,7 @@ var RECIPES = {
   },
   'crispy-fry': {
     name: 'Crispy Oyster Mushroom Fry',
-    image: 'https://images.unsplash.com/photo-1618164436241-4473940d1f5c?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-crispy-fry.jpg',
     prepTime: '15 minutes',
     cookTime: '15 minutes',
     servings: '3 servings',
@@ -160,7 +157,7 @@ var RECIPES = {
   },
   'curry': {
     name: 'Oyster Mushroom Curry',
-    image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-curry.jpg',
     prepTime: '15 minutes',
     cookTime: '25 minutes',
     servings: '4 servings',
@@ -187,7 +184,7 @@ var RECIPES = {
   },
   'stir-fry': {
     name: 'Mushroom Stir Fry',
-    image: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-stir-fry.jpg',
     prepTime: '10 minutes',
     cookTime: '8 minutes',
     servings: '2 servings',
@@ -212,7 +209,7 @@ var RECIPES = {
   },
   'creamy-pasta': {
     name: 'Creamy Mushroom Pasta',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-creamy-pasta.jpg',
     prepTime: '10 minutes',
     cookTime: '20 minutes',
     servings: '3 servings',
@@ -237,7 +234,7 @@ var RECIPES = {
   },
   'soup': {
     name: 'Mushroom Soup',
-    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80',
+    image: '/assets/images/recipe-soup.jpg',
     prepTime: '10 minutes',
     cookTime: '25 minutes',
     servings: '4 servings',
